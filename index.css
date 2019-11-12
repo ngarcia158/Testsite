@@ -10,14 +10,16 @@ div.row::after{
 div.col-1-1{
     width: 100%;
 }
-div.col-45-100{
-    width: 45%
+div.col-48-100{
+    width: 48%
     
 }
-div.col-55-100{
-    width: 55%;
+div.col-52-100{
+    width: 52%;
 }
-
+html{
+    background-color: gray;
+}
 header{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -50,6 +52,8 @@ section.project{
     flex-flow: row wrap;
     display: flex;
     float: right;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 div#item{
     text-align: right;
@@ -67,4 +71,14 @@ img{
 }
 a#contact{
     margin-bottom: 15px
+}
+ul#contact{
+    display: flex;
+    flex-flow: row wrap;
+    text-decoration: none;
+}
+ul#contact li{
+    text-decoration: none;
+    margin-left: 10px;
+    list-style-type: none;
 }
