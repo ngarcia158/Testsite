@@ -11,14 +11,15 @@ div.col-1-1{
     width: 100%;
 }
 div.col-48-100{
-    width: 48%
+    width: 48%;
     
 }
 div.col-52-100{
     width: 52%;
 }
 html{
-    background-color: gray;
+    background-color: #00188E;
+    width: 100%;
 }
 header{
     margin-top: 0px;
@@ -30,15 +31,22 @@ header{
     margin-left: 2px;
 
 }
+body{
+    background: linear-gradient(#53545A, #C5C5C6);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
 a #logo{
     position: absolute;
     top: 5px;
     left: 5px;
+   
 }
 body h1#title{
     position: absolute;
     top: 15px;
-    left: 46%;
+    left: 622px;
 }
 section.aboutMe{
       margin-left: auto;
@@ -54,20 +62,20 @@ section.project{
     float: right;
     padding-left: 10%;
     padding-right: 10%;
+   
 }
 div#item{
     text-align: right;
     align-content: right;
-    
+    float: right
 }
 div#description{
-    padding-left: 15px;
-    padding-right:15px;
+    padding-left: 25px;
+    padding-right:5px;
     padding-top: 30px;
 }
 img{
     margin: 0px;
-
 }
 a#contact{
     margin-bottom: 15px
@@ -81,4 +89,28 @@ ul#contact li{
     text-decoration: none;
     margin-left: 10px;
     list-style-type: none;
+}
+img#projectpic1{
+    margin-top: 30px;
+}
+img#badge2{
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 50px; 
+}
+img#badge1{
+    float:left;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 1.75em;
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+}
+.project h2{
+    position: absolute;
+    left: 669px;
 }
