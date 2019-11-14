@@ -1,3 +1,7 @@
+h2, p, h1, a{
+    font-family: 'Jomolhari', serif;
+}
+/* Div Elements */
 div[class="col-"]{
     float: left;
     box-sizing: border-box;
@@ -17,10 +21,41 @@ div.col-48-100{
 div.col-52-100{
     width: 52%;
 }
+div#item{
+    text-align: right;
+    align-content: right;
+    float: right
+}
+div#description{
+    padding-left: 25px;
+    padding-right:5px;
+    padding-top: 30px;
+}
+/* ===================================================== */
+/* html and Body elements */
 html{
     background-color: #00188E;
     width: 100%;
 }
+body{
+    background: linear-gradient(#717276, #C5C5C6);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body h1#title{
+    position: absolute;
+    top: 15px;
+    left: 622px;
+}
+
+body h1#title{
+    position: absolute;
+    top: 15px;
+    left: 622px;
+}
+/* ======================================================= */
+/* header element */
 header{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -31,28 +66,34 @@ header{
     margin-left: 2px;
 
 }
-body{
-    background: linear-gradient(#53545A, #C5C5C6);
-    width: 85%;
-    margin-left: auto;
+h1{
+    font-size: 1.75em;
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
     margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
-a #logo{
+h2#aboutMe{
+    padding-top: 30px;
+}
+.project h2{
     position: absolute;
-    top: 5px;
-    left: 5px;
-   
+    left: 669px;
 }
-body h1#title{
-    position: absolute;
-    top: 15px;
-    left: 622px;
+h2.skills{
+    padding-top: 40px;
 }
+/* ======================================================= */
+/* section elements */
 section.aboutMe{
       margin-left: auto;
       margin-right: auto;
       text-align: center;
       align-content: center;
+      padding-top: 20px;
 }
 section.project{
     margin-left: auto;
@@ -64,22 +105,20 @@ section.project{
     padding-right: 10%;
    
 }
-div#item{
-    text-align: right;
-    align-content: right;
-    float: right
-}
-div#description{
-    padding-left: 25px;
-    padding-right:5px;
-    padding-top: 30px;
-}
-img{
-    margin: 0px;
-}
+/* ======================================================= */
+/* anchor elements */
 a#contact{
     margin-bottom: 15px
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:active{
+    color: white;
+}
+/* ======================================================= */
+/* unordered list elements */
 ul#contact{
     display: flex;
     flex-flow: row wrap;
@@ -90,27 +129,51 @@ ul#contact li{
     margin-left: 10px;
     list-style-type: none;
 }
+ul#contact li{
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+}
+/* ======================================================= */
+/* Image elements */
+img{
+    margin: 0px;
+}
 img#projectpic1{
     margin-top: 30px;
 }
 img#badge2{
     float: left;
-    margin-top: 60px;
     margin-bottom: 50px; 
 }
 img#badge1{
     float:left;
-    margin-top: 60px;
     margin-bottom: 50px;
 }
-h1{
-    font-size: 1.75em;
-    text-align: center;
-}
-h2{
-    font-size: 1.5em;
-}
-.project h2{
+
+
+img#leftArrow{
     position: absolute;
-    left: 669px;
+    left: 100px;
+    transform: rotate(180deg);
+    margin-top: 150px
+}
+img#rightArrow{
+    position: absolute;
+    right: 100px;
+    margin-top: 140px
+
+}
+
+/* ======================================================= */
+/* Paragraph elements */
+p#aboutMe{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+p#skills{
+    margin-right: 140px;
+    padding-top: 60px;
 }
