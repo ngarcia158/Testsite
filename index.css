@@ -31,6 +31,7 @@ div#description{
     padding-right:5px;
     padding-top: 30px;
 }
+
 /* ===================================================== */
 /* html and Body elements */
 html{
@@ -44,11 +45,12 @@ body{
     margin-right: auto;
 }
 
-
-body h1#title{
-    position: absolute;
-    top: 15px;
-    left: 600px;
+img{
+    position: relative;
+}
+button{
+    background: transparent;
+    border: none;
 }
 /* ======================================================= */
 /* header element */
@@ -72,9 +74,7 @@ h2{
     margin-left: auto;
     text-align: center;
 }
-h2#aboutMe{
-    padding-top: 30px;
-}
+
 .project h2{
     position: absolute;
     left: 669px;
@@ -85,11 +85,9 @@ h2.skills{
 /* ======================================================= */
 /* section elements */
 section.aboutMe{
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-      align-content: center;
-      padding-top: 20px;
+    word-wrap: normal;
+    
+      
 }
 section.project{
     margin-left: auto;
@@ -163,13 +161,24 @@ img#rightArrow{
 
 /* ======================================================= */
 /* Paragraph elements */
-p#aboutMe{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+
+/*makes badges aligned in middle*/
+div#images{
+    text-align: center;
     align-content: center;
 }
-p#skills{
-    margin-right: 140px;
-    padding-top: 60px;
+
+p#name{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+img#me{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+p#aboutMe{
+    margin: 0 5em;
+    padding-top: 3em;
 }

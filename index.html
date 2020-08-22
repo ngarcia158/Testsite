@@ -14,38 +14,37 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-1-1">
+        <div class="row">
             <header>
                 <nav>
-                    <a href="index.html"><img src="images/logo.png" alt="Logo" height="80px" width="80px" /></a>
+                    <a href="index.html"><img src="images/logo.png" alt="Logo" height="80px" width="80px" style="float: left;"/></a>
                     <div>
-                        <h1 id="title">
+                        <p id="name">
                             Nicholas Garcia<br>
                             Web developer
-                        </h1>
+                        </p>
                     </div>
                 </nav>
             </header>
         </div>
-    </div>
+ 
 
-    <div class="row">
-        <section class="aboutMe">
-            <img src="images/logo.png" alt="Picture of me" width="200" height="200">
-            <h2 id="aboutMe">About me</h2>
+
+        <div class="row">
+            <img src="images/mecrop.jpg" alt="Picture of me" width="200" height="200" style="float: left;" id="me"/>
+           
             <p id="aboutMe">
                 My name in Nicholas Garcia-Peguero. I am a web developer and content designer based in Goodyear, 
                 AZ currently attending Desert Edge High School and West-Mec coding program where I am learning HTML and CSS. 
                 I love coding and try to put that passion into everything I do.
             </p>
-        </section>
-    </div>  
-    
-    <div class="row">
-        <h2 class="skills">Skills</h2>
-        <img src="images/html5badge.png" height="225px" width="225px" id="badge1"/>
-        <img src="images/css.png" height="225px" width="225px" id="badge2"/>
+        </div>
+ 
+        <h2 >Skills</h2>
+    <div class="row" id="images">
+        <button name="submit" type="button" onclick="htmlGrade()"><img src="images/html5badge.png" height="225px" width="225px" id="badge1" style="background: transparent;"/></button>
+        <button name="submit" type="button" onclick="cssGrade()"><img src="images/css.png" height="225px" width="225px" id="badge2"/></button>
+        <button name="submit" type="button" onclick="JavaScriptGrade()"><img src="images/javaSBadge.png" height="225px" width="225px" id="badge1" style="background: transparent;"/></button>
         <p id="skills">
             I currently know how to use HTML proficiently, I know mostly everything in HTML but not everything and 
             use CSS moderately in that i have just started but know a lot about it but I know how to use both together and can 
@@ -53,12 +52,13 @@
         </p>
     </div>
 
+    <h2>Projects</h2>
     <div class="row">
         <section class="project" >
+            
             <div class="col-52-100" id="item">
-            <h2>Projects</h2>
                 <a href="index2.html#item"><img src="images/arrow.png" alt="leftArrow" height="80px" width="80px" id="leftArrow"></a>
-                <img src="images/pokemonpageproject.png" alt="project" height="360px" width="525px" id="projectpic1">
+                <img src="images/pokemonpageproject.png" alt="project" height="200vm" width="400vm" id="projectpic1">
             </div>
             
             <div class="col-48-100" id="description">
@@ -72,7 +72,7 @@
             </div>
             <a href="index2.html#item"><img src="images/arrow.png" alt="rightArrow" height="80px" width="80px" id="rightArrow"></a>
         </section>
-        </div>
+    </div>
 
         
 
