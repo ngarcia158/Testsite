@@ -182,3 +182,6 @@ p#aboutMe{
     margin: 0 5em;
     padding-top: 3em;
 }
+.header{
+    display: flex;  
+}
